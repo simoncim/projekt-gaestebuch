@@ -12,6 +12,35 @@
 </head>
 <body>
     <h1 class="guestbook-heading">Gästebuch</h1>
+    <form>
+            <label class="guestbook-entry-label" for="name">Dein Name:</label>
+            <input 
+                class="guestbook-entry-input"
+                type="text"
+                id="name"
+                name="name" />
+
+            <label class="guestbook-entry-label" for="title">Titel des Eintrags:</label>
+            <input 
+                class="guestbook-entry-input" 
+                type="text" 
+                id="title"
+                name="title" />
+
+            <label class="guestbook-entry-label" for="content">Inhalt des Eintrags:</label>
+            <textarea 
+                rows="4"
+                class="guestbook-entry-input" 
+                type="text" 
+                id="content" 
+                name="content"></textarea>
+
+            <div class="guestbook-form-buttons">
+                <input class="button" type="reset" value="Zurücksetzen">
+                <input class="button" type="submit" value="Absenden">
+            </div>
+        </form>
+
     
 </body>
 </html>
