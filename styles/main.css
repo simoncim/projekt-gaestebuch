@@ -11,3 +11,12 @@ html {
 body {
     background-color: #fffcf7;
 }
+.guestbook-heading {
+    color: #e97200;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0.2em;
+}
